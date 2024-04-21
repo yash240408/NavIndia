@@ -1,6 +1,6 @@
  <div align="center"> 
 
-# nav.india
+# NavIndia
 
 
  ### Spot potholes, earn rewards, drive safely
@@ -27,7 +27,7 @@
 
 # 🧭 `Table of contents`
 
-- [Nav.india](#nav-.-india)
+- [NavIndia](#NavIndia)
 - [Table of contents🧭 ](#Table-of-contents)
 - [Introduction🚀](#Introduction)
 - [Local Implementation](#Local-Implementation)
@@ -45,9 +45,8 @@
 <img  width="100" height="120" align="center" src="https://user-images.githubusercontent.com/110530263/225117486-588eb822-df15-44c5-aa77-d6a955fa9002.png">
  </div> --->
  
-- The app that keeps your drive smooth and safe! With NavIndia, you receive  alerts about upcoming potholes and road bumps, ensuring a stress-free journey.
-- Plus, we make road safety engaging by rewarding users for reporting potholes.Interface makes it effortless to contribute and stay informed. Say goodbye to bumpy rides and hello to smoother travels with NavIndia! a new way to navigate Indian Roads.
-
+- The app that keeps your drive smooth and safe! With NavIndia , you receive  alerts about upcoming potholes and signals , ensuring a stress-free journey.
+- Plus, we make road safety engaging by rewarding users for reporting potholes . Interface makes it effortless to contribute and stay informed. Say goodbye to bumpy rides, backache , vehicular damage and hello to smoother travels with NavIndia! a new way to navigate Indian Roads.
 
 ## `Local Implementation`
 - Clone the repository
@@ -80,8 +79,8 @@ flutter run apk
 
 ## `Features`
 
-- Use cutting-edge algorithms to instantly identify potholes and bumps in the road.
-- Easily navigate and report road hazards with this intuitively designed interface.
+- We used cutting-edge Machine Learning(ML) algorithms to instantly identify potholes.
+- User friendly App interface makes it easy for user to report the Potholes with its precise location on the map.
 - Use the app to earn rewards such as gift cards and localised coupons nearby while encouraging community participation in road upkeep.
 - Large Database: An extensive database that effectively prioritizes road repair projects by listing pothole locations, sizes, and severity levels.
 
