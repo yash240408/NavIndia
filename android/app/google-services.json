@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "548418055494",
+    "project_id": "navindia-6cc54",
+    "storage_bucket": "navindia-6cc54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548418055494:android:d8b3320868a47c93308947",
+        "android_client_info": {
+          "package_name": "com.nav.india"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKiGJOHzXhHkb4Kfg41rQXJoo9JOmee3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
