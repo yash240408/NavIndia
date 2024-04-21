@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nav.India | Login</title>
+  <link rel="shortcut icon" type="image/png" href="/static/images/logos/logo.png" />
+  <link rel="stylesheet" href="/static/css/styles.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .alert-container {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .alert {
+      padding: 20px;
+      background-color: #5d87ff;
+      color: white;
+      text-align: center;
+    }
+
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .closebtn:hover {
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <!--  Body Wrapper -->
+
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+    <div
+      class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center w-100">
+        <div class="row justify-content-center w-100">
+          <div class="col-md-8 col-lg-6 col-xxl-3">
+            <div class="card mb-0">
+              <div class="card-body">
+                <a href="/home" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                  <img src="../static/images/logos/dark-logo.svg" width="180" alt="" />
+                </a>
+                {% if message %}
+                <div class="alert">
+                  {{message}}
+                  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                </div>
+                {% endif %}
+                <form action="/login" method="post">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="john.doe@gmail.com"
+                      id="exampleInputEmail1" aria-describedby="emailHelp" />
+                  </div>
+                  <div class="mb-4">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" name="password" placeholder="Enter password" class="form-control"
+                      id="exampleInputPassword1" />
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between mb-4">
+                  </div>
+                  <input type="submit" value="Login" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">
+                </form>
+                <div class="d-flex align-items-center justify-content-center">
+                  <p class="fs-4 mb-0 fw-bold">New to Trashee?</p>
+                  <a class="text-primary fw-bold ms-2" href="/signup">Create an account</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

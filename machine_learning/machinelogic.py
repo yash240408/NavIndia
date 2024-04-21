@@ -26,9 +26,9 @@ def detect_potholes(image_path):
     if img is None:
         print(f"Failed to read image from path: {image_path}")
         return False, 0.0
-    with open(os.path.join("project_files", 'obj.names'), 'r') as f:
+    with open(('obj.names'),'r') as f:
         classes = f.read().splitlines()
-    net = cv2.dnn.readNet('project_files/yolov4_tiny.weights', 'project_files/yolov4_tiny.cfg')
+    net = cv2.dnn.readNet('yolov4_tiny.weights', 'yolov4_tiny.cfg')
     model = cv2.dnn_DetectionModel(net)
     model.setInputParams(scale=1 / 255, size=(416, 416), swapRB=True)
     classIds, scores, boxes = model.detect(img, confThreshold=0.6, nmsThreshold=0.4)

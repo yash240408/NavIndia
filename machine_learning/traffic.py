@@ -7,7 +7,7 @@ app = Flask(__name__)
 signals = ['red', 'green', 'yellow']
 timer_intervals = {
     'position1': {
-        # Kartik_0_07
+
         'latitude': 26.76574685515445,
         'longitude': 75.8388288617248,
         'signal': {'red': 75, 'green': 25, 'yellow': 4}
