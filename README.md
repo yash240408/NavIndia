@@ -11,7 +11,7 @@
 
 
 <p align="center">
-<img  width="400" height="400" src="">
+<img  width="400" height="400" src="https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/logos/hh.png">
 </p>
 
   
@@ -19,7 +19,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.python.org/) 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://github.com/yash240408/NavIndia)
   
- [![Typing SVG](https://readme-typing-svg.demolab.com?font=QUARTZO+&pause=1000&color=F72288&width=435&lines=Built+for+Hack+-+It+-+Sapiens+2024)](https://git.io/typing-svg)
+ [![Typing SVG](https://readme-typing-svg.demolab.com?font=QUARTZO+&pause=1000&color=F72288&width=435&lines=Built+for+Hack+-+NU+-+Thon+2024)](https://git.io/typing-svg)
  
  
 </div>
@@ -97,16 +97,16 @@ flutter run apk
 
 
 
-| ![Onboarding](image_1_onboarding) | ![Signup](image_2_signup) |
+| ![Onboarding](https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/app_images/on_board.jpeg) | ![Signup](https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/app_images/signup.jpeg) |
 |:---:|:---:|
 |Onboarding Screen | Signup Screen |
 
-| ![Add Pothole](image_3_pothole_add) | ![Spotted Pothole](image_4_homescreen) |
+| ![Add Pothole](https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/app_images/add_pothole.jpeg) | ![Spotted Pothole](https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/app_images/home_screen.jpeg) |
 |:---:|:---:|
 |Add The Pothole | Pothole Mapped Screen |
 
 
-| ![Story Screen](image_5_profile) |  ![Profile Screen](image_6_profile)
+| ![Story Screen](https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/app_images/story.jpeg) |  ![Profile Screen](https://raw.githubusercontent.com/yash240408/NavIndia/master/assets/app_images/profile.jpeg)
 |:---:|:---:|
 | Social Media Like Feed |Edit Your Profile |
 
